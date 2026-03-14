@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Une journée dans la vie de Pauline</title>
+
+<link rel="stylesheet" href="jeuinteractifportfolio.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Roca+One&display=swap" rel="stylesheet">
+
+<link rel="icon" type="image/png" href="etincelle.png">
+
+</head>
+
+<body>
+
+<audio id="backgroundNoise" src="jeuinteractifson.mp3"></audio>
+
+<div class="game-container">
+
+<h1>Une journée dans la vie de Pauline</h1>
+<h2>Mini-jeu interactif</h2>
+
+<div class="progress-bar">
+<div id="progress"></div>
+</div>
+
+<div class="story-box">
+<p id="story">
+9h00. Vous êtes communicante dans une startup EdTech.  
+Un client vous écrit : "On veut devenir viral."
+</p>
+</div>
+
+<div id="choices">
+
+<button onclick="analyse()">Analyser la cible</button>
+
+<button onclick="tiktok()">Lancer une campagne TikTok</button>
+
+</div>
+
+</div>
+
+<script src="jeuinteractifportfolio.js"></script>
+
+</body>
+</html>
