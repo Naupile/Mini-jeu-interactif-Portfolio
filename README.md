@@ -7,14 +7,14 @@ Le joueur incarne une chargée de communication dans une entreprise EdTech et do
 <p>Chaque choix influence l’issue de l’histoire : réussite stratégique, viralité incontrôlée… ou stratégie un peu bancale.</p>
 
 
-<h2>🎯 Objectif du projet :</h2>
+<h2>🎯 Objectif du projet</h2>
 
 <p>Ce projet a été conçu comme un format original de CV interactif.
 L’idée est de montrer mes compétences en communication à travers une mise en situation ludique plutôt qu’une simple liste de compétences.
 
 Le jeu est accessible via QR code sur mon CV.</p>
 
-<h2>🧠 Concept :</h2>
+<h2>🧠 Concept</h2>
 
 Vous êtes responsable communication dans une entreprise EdTech.
 
@@ -38,7 +38,7 @@ Vous êtes responsable communication dans une entreprise EdTech.
 <li>😬 La viralité sans stratégie peut être dangereuse</li>
 </ul>
 
-<h2>🛠️ Technologies utilisées :</h2>
+<h2>🛠️ Technologies utilisées</h2>
 
 <ul>
   <li>HTML</li>
@@ -49,7 +49,7 @@ Vous êtes responsable communication dans une entreprise EdTech.
 
 Le design s’inspire d'une interface Slack ouverte dans une fenêtre d’ordinateur, pour rester cohérent avec un environnement de travail en communication digitale.
 
-<h2>🎨 Direction artistique :</h2>
+<h2>🎨 Direction artistique</h2>
 
 <h3>Polices utilisées :</h3>
 
@@ -59,7 +59,7 @@ Le design s’inspire d'une interface Slack ouverte dans une fenêtre d’ordina
 
 <li>Canva Sans (texte)</li></ul>
 
-<h3>Palette :</h3>
+<h3>Palette</h3>
 
 <ul><li>fond : dégradé #efbff8 → #fbabff</li>
 
@@ -69,7 +69,7 @@ Le design s’inspire d'une interface Slack ouverte dans une fenêtre d’ordina
 
 Les boutons utilisent un style pixel / jeu rétro pour renforcer l’aspect ludique.
 
-<h2>🔊 Détails interactifs :</h2>
+<h2>🔊 Détails interactifs</h2>
 
 <ul><li>barre de progression</li>
 
@@ -77,7 +77,7 @@ Les boutons utilisent un style pixel / jeu rétro pour renforcer l’aspect ludi
 
 <li>ambiance sonore d’open space</li></ul>
 
-<h2>👩‍💻 À propos :</h2>
+<h2>👩‍💻 À propos</h2>
 
 Je suis étudiante en Master Communication des Organisations et Innovation Numérique à l'Université Rennes 2, et alternante dans l'écosystème EdTech.
 
