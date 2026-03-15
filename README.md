@@ -3,11 +3,8 @@
 <h3>Mini jeu narratif interactif développé en HTML, CSS et JavaScript.
 Le joueur incarne une chargée de communication dans une entreprise EdTech et doit prendre des décisions stratégiques tout au long de sa journée.</h3>
 <br>
-##🖼️​ Aperçu du jeu
-![Aperçu du jeu](previewjeuinteractifportfolio.png)
 
 <p>Chaque choix influence l’issue de l’histoire : réussite stratégique, viralité incontrôlée… ou stratégie un peu bancale.</p>
-
 
 <h2>🎯 Objectif du projet</h2>
 
