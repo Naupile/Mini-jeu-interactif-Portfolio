@@ -2,6 +2,7 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
+font-family:"Inter", sans-serif;
 }
 
 body{
@@ -10,8 +11,6 @@ background-image: url("jeuinteractiffond.jpg");
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
-
-font-family:"Canva Sans", sans-serif;
 
 min-height:100vh;
 
@@ -53,13 +52,16 @@ position:relative;
 }
 
 h1{
-font-family:"Gagalin", sans-serif;
-font-size:32px;
+font-family:"Bebas Neue", sans-serif;
+font-size:52px;
+letter-spacing:2px;
+text-shadow:3px 3px 0 #efbff8;
 margin-bottom:10px;
 }
 
 h2{
-font-family:"Roca One", sans-serif;
+font-family:"Space Grotesk", sans-serif;
+font-weight:600;
 color:#5e17eb;
 margin-bottom:25px;
 }
@@ -270,31 +272,5 @@ border-radius:50%;
 margin-left:10px;
 
 opacity:0.9;
-
-}
-
-.github-link{
-
-margin-top:25px;
-
-font-size:14px;
-
-opacity:0.7;
-
-}
-
-.github-link a{
-
-color:#5e17eb;
-
-text-decoration:none;
-
-font-weight:500;
-
-}
-
-.github-link a:hover{
-
-text-decoration:underline;
 
 }
