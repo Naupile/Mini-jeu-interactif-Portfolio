@@ -6,6 +6,10 @@ Le joueur incarne une chargée de communication dans une entreprise EdTech et do
 
 <p>Chaque choix influence l’issue de l’histoire : réussite stratégique, viralité incontrôlée… ou stratégie un peu bancale.</p>
 
+<h2>🎮 Démo</h2>
+
+👉 https://naupile.github.io/Mini-jeu-interactif-Portfolio/
+
 <h2>🎯 Objectif du projet</h2>
 
 <p>Ce projet a été conçu comme un format original de CV interactif.
@@ -86,9 +90,5 @@ par la narration et l'expérience utilisateur.
 <h2>🔗 Me contacter</h2>
 
 <h3><a href="https://www.linkedin.com/in/paulineaugereau/">LinkedIn</h3>
-
-<h2>🎮 Démo</h2>
-
-👉 https://naupile.github.io/Mini-jeu-interactif-Portfolio/
 
 <h4>Merci d'avoir joué !</h4>
