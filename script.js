@@ -113,6 +113,13 @@ Moi c'est Pauline, votre future communicante fan de violet ;).</p>
 
 </div>`
 
+  <p class="github-link">
+Voir le code du projet sur  
+<a href="https://github.com/Naupile/Mini-jeu-interactif-Portfolio target"="_blank">
+GitHub
+</a>
+</p>
+
 }
 
 function restart(){
