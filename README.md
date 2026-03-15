@@ -87,7 +87,7 @@ par la narration et l'expérience utilisateur.
 
 <h3><a href="https://www.linkedin.com/in/paulineaugereau/">LinkedIn</h3>
 
-##🎮 Démo
+<h2>🎮 Démo</h2>
 
 👉 https://naupile.github.io/Mini-jeu-interactif-Portfolio/
 
