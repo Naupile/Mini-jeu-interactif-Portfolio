@@ -3,6 +3,8 @@
 <h3>Mini jeu narratif interactif développé en HTML, CSS et JavaScript.
 Le joueur incarne une chargée de communication dans une entreprise EdTech et doit prendre des décisions stratégiques tout au long de sa journée.</h3>
 <br>
+##🖼️​ Aperçu du jeu
+![Aperçu du jeu](previewjeuinteractifportfolio.png)
 
 <p>Chaque choix influence l’issue de l’histoire : réussite stratégique, viralité incontrôlée… ou stratégie un peu bancale.</p>
 
@@ -87,5 +89,9 @@ par la narration et l'expérience utilisateur.
 <h2>🔗 Me contacter</h2>
 
 <h3><a href="https://www.linkedin.com/in/paulineaugereau/">LinkedIn</h3>
+
+##🎮 Démo
+
+👉 https://naupile.github.io/Mini-jeu-interactif-Portfolio/
 
 <h4>Merci d'avoir joué !</h4>
