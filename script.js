@@ -3,7 +3,6 @@
   document.body.addEventListener("click", () => {
 backgroundNoise.play();
 }, { once: true });
-backgroundNoise.loop = true;
 
 function setProgress(value){
 
