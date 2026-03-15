@@ -100,25 +100,29 @@ document.getElementById("choices").innerHTML =
 
 <img src="jeuinteractifmoi.png" alt="Photo de Pauline" class="profile-pic">
 
-<p>Merci d'avoir joué !  <br>
+<p>Merci d'avoir joué !<br>
 Moi c'est Pauline, votre future communicante fan de violet ;).</p>
 
 <br><br>
 
-<a class="linkedin" href="https://www.linkedin.com/in/paulineaugereau/" target="_blank">Me contacter sur LinkedIn</a>
+<a class="linkedin" href="https://www.linkedin.com/in/paulineaugereau/" target="_blank">
+Me contacter sur LinkedIn
+</a>
 
 <br><br>
 
 <button onclick="restart()">Rejouer</button>
 
-    <p class="github-link">
+<p class="github-link">
 Voir le code du projet sur  
-<a href="https://github.com/Naupile/Mini-jeu-interactif-Portfolio target"="_blank">
+<a href="https://github.com/Naupile/Mini-jeu-interactif-Portfolio" target="_blank">
 GitHub
 </a>
 </p>
 
 </div>`
+
+}
 
 function restart(){
 
