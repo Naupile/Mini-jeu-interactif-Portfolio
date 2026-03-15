@@ -53,11 +53,11 @@ Le design s’inspire d'une interface Slack ouverte dans une fenêtre d’ordina
 
 <h3>Polices utilisées :</h3>
 
-<ul><li>Gagalin (titres)</li>
+<ul><li>Bebas Neue (titres)</li>
 
-<li>Roca One (sous-titres)</li>
+<li>Space Grotesk (sous-titres)</li>
 
-<li>Canva Sans (texte)</li></ul>
+<li>Inter (texte)</li></ul>
 
 <h3>Palette</h3>
 
@@ -65,7 +65,7 @@ Le design s’inspire d'une interface Slack ouverte dans une fenêtre d’ordina
 
 <li>texte : #1800ad</li>
 
-<li>accent : #5e17eb</li></ul>
+<li>accent : #fbabff et #5e17eb</li></ul>
 
 Les boutons utilisent un style pixel / jeu rétro pour renforcer l’aspect ludique.
 
