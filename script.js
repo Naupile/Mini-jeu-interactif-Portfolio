@@ -85,7 +85,7 @@ setProgress(100)
 
 document.getElementById("story").innerHTML =
 `La marque devient célèbre… mais personne ne comprend ce qu'elle vend.
-
+<br><br>
 😬 La viralité sans stratégie peut être dangereuse.`;
 
 showEnd()
