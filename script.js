@@ -45,9 +45,9 @@ setProgress(75)
 document.body.classList.add("crisis-mode")
 
 document.getElementById("story").innerHTML =
-`🚨 Alerte crise RP : un post est <strong>mal interprété</strong> et les commentaires <strong>s'embrasent</strong>.
+`🚨 Alerte crise RP : un post est mal interprété et les commentaires <strong>s'embrasent.
 <br><br>
-Le canal #marketing passe en mode urgence : il faut <strong>répondre vite et rester clair</strong>.`;
+Le canal #marketing passe en mode urgence : il faut répondre vite et rester clair.`;
 
 document.getElementById("choices").innerHTML =
 `<button onclick="strategie()">Publier une réponse officielle et cadrer le message</button>
@@ -102,9 +102,9 @@ function oups(){
 setProgress(100)
 
 document.getElementById("story").innerHTML =
-`Le client se fait blacklister, vous pouvez faire mieux !
-<br><br>
-😡​ Une com' de crise soignée, c'est une entreprise en bonne santé.`;
+`😬 Mauvaise décision.
+  <br> <br>
+Ignorer une crise, c’est laisser la réputation brûler.`;
 
 showEnd()
 
@@ -125,6 +125,8 @@ showEnd()
 }
 
 function showEnd(){
+
+document.body.classList.remove("crisis-mode")
 
 document.getElementById("choices").innerHTML =
 
