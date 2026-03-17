@@ -131,32 +131,7 @@ location.reload()
 
 }*/
 
- backgroundNoise.currentTime = 0;
-  backgroundNoise.play();
-  backgroundNoise.loop = true;
-
-function setProgress(value){
-
-document.getElementById("progress").style.width = value + "%"
-
-}
-
-function analyse(){
-
-setProgress(50)
-
-document.getElementById("story").textContent =
-"Vous analysez la cible et découvrez que les étudiants passent des heures sur leur téléphone.";
-
-document.getElementById("choices").innerHTML =
-
-`<button onclick="reels()">Créer des reels éducatifs</button>
-
-<button onclick="podcast()">Lancer un podcast expert</button>`
-
-}
-
-function tiktok(){
+function tiktok(){␊
 
 setProgress(50)
 
@@ -207,42 +182,6 @@ document.getElementById("story").innerHTML =
 <br><br>
 🏆 Félicitations !  
 Vous êtes une communicante <strong>créative et stratégique</strong>.`;
-
-showEnd()
-
-}
-
-function podcast(){
-
-setProgress(100)
-
-document.getElementById("story").innerHTML =
-`Le podcast est passionnant… mais les étudiants préfèrent regarder des vidéos de chats.
-<br><br>
-📊 Résultat mitigé.  
-Parfois la stratégie doit aussi être <strong>fun</strong>.`;
-
-  function strategie(){
-
-setProgress(100)
-
-document.getElementById("story").innerHTML =
-`Vous structurez la communication : contenus courts, storytelling et newsletter.
-<br><br>
-🚀 La marque devient une référence EdTech.`;
-
-showEnd()
-
-}
-
-function viral(){
-
-setProgress(100)
-
-document.getElementById("story").innerHTML =
-`La marque devient célèbre… mais personne ne comprend ce qu'elle vend.
-<br><br>
-😬 La viralité sans stratégie peut être dangereuse.`;
 
 showEnd()
 
