@@ -1,4 +1,4 @@
-/*const backgroundNoise = document.getElementById("backgroundNoise");
+const backgroundNoise = document.getElementById("backgroundNoise");
   backgroundNoise.currentTime = 0;
   backgroundNoise.play();
   backgroundNoise.loop = true;
@@ -129,100 +129,5 @@ function restart(){
 
 location.reload()
 
-}*/
-
-function tiktok(){␊
-
-setProgress(50)
-
-document.getElementById("story").textContent =
-"La campagne TikTok explose mais le client demande maintenant une vraie stratégie.";
-
-document.getElementById("choices").innerHTML =
-
-`<button onclick="strategie()">Construire une stratégie de contenu</button>
-
-<button onclick="viral()">Continuer la viralité</button>`
-
 }
-document.getElementById("choices").innerHTML =
-
-`<button onclick="strategie()">Construire une stratégie de contenu</button>
-
-<button onclick="viral()">Continuer la viralité</button>
-
-<button onclick="crise()">⚠️ Déclencher le module crise RP</button>`
-
-}
-
-function crise(){
-
-setProgress(75)
-
-document.body.classList.add("crisis-mode")
-
-document.getElementById("story").innerHTML =
-`🚨 Alerte crise RP : un post est mal interprété et les commentaires s'embrasent.
-<br><br>
-Le canal #marketing passe en mode urgence : il faut répondre vite et rester clair.`;
-
-document.getElementById("choices").innerHTML =
-`<button onclick="strategie()">Publier une réponse officielle et cadrer le message</button>
-
-<button onclick="viral()">Laisser la viralité faire le tri toute seule</button>`
-
-}
-
-function reels(){
-
-setProgress(100)
-
-document.getElementById("story").innerHTML =
-`Les reels deviennent viraux. Le client gagne 20k abonnés en une semaine.
-<br><br>
-🏆 Félicitations !  
-Vous êtes une communicante <strong>créative et stratégique</strong>.`;
-
-showEnd()
-
-}
-
-function showEnd(){
-
-document.getElementById("choices").innerHTML =
-
-`<div class="profile">
-
-<img src="jeuinteractifmoi.png" alt="Photo de Pauline" class="profile-pic">
-
-<p>Merci d'avoir joué !<br>
-Moi c'est Pauline, votre future communicante fan de violet ;).</p>
-
-<br><br>
-
-<a class="linkedin" href="https://www.linkedin.com/in/paulineaugereau/" target="_blank">
-Me contacter sur LinkedIn
-</a>
-
-<br><br>
-
-<button onclick="restart()">Rejouer</button>
-
-<p class="github-link">
-Voir le code du projet sur  
-<a href="https://github.com/Naupile/Mini-jeu-interactif-Portfolio" target="_blank">
-GitHub
-</a>
-</p>
-
-</div>`
-
-}
-
-function restart(){
-
-location.reload()
-
-}
-
 
