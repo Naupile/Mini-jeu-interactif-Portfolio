@@ -295,3 +295,51 @@ text-decoration:underline;
 margin-top:10px;
 }
 
+.profile button{
+margin-top:10px;
+}
+
+/* mode crise RP */
+
+body.crisis-mode .game-container{
+border-color:#9f1239;
+box-shadow:
+0 20px 40px rgba(127, 29, 29, 0.35);
+animation:shake 0.35s infinite;
+}
+
+body.crisis-mode .window-bar{
+background:#b91c1c;
+}
+
+body.crisis-mode .story-box{
+background:#fff1f2;
+}
+
+body.crisis-mode #progress{
+background:linear-gradient(90deg,#fb7185,#b91c1c);
+}
+
+body.crisis-mode button{
+background:#fee2e2;
+color:#7f1d1d;
+border-color:#b91c1c;
+box-shadow:
+4px 4px 0 #b91c1c,
+8px 8px 0 #7f1d1d;
+}
+
+body.crisis-mode button:hover{
+box-shadow:
+6px 6px 0 #b91c1c,
+10px 10px 0 #7f1d1d;
+}
+
+@keyframes shake{
+0%{transform:translate(0,0);}
+25%{transform:translate(1px,-1px);}
+50%{transform:translate(-1px,1px);}
+75%{transform:translate(1px,1px);}
+100%{transform:translate(0,0);}
+}
+
