@@ -1,7 +1,7 @@
-const backgroundNoise = document.getElementById("backgroundNoise");
-  backgroundNoise.currentTime = 0;
-  backgroundNoise.play();
-  backgroundNoise.loop = true;
+document.addEventListener("click", () => {
+  const audio = document.getElementById("backgroundNoise");
+  audio.play();
+}, { once: true });
 
 function setProgress(value){
 
