@@ -28,14 +28,31 @@ function tiktok(){
 
 setProgress(50)
 
-document.getElementById("story").textContent =
-"La campagne TikTok explose mais le client demande maintenant une vraie stratégie.";
-
 document.getElementById("choices").innerHTML =
 
 `<button onclick="strategie()">Construire une stratégie de contenu</button>
 
-<button onclick="viral()">Continuer la viralité</button>`
+<button onclick="viral()">Continuer la viralité</button>
+
+<button onclick="crise()">⚠️ Déclencher le module crise RP</button>`
+
+}
+
+function crise(){
+
+setProgress(75)
+
+document.body.classList.add("crisis-mode")
+
+document.getElementById("story").innerHTML =
+`🚨 Alerte crise RP : un post est mal interprété et les commentaires s'embrasent.
+<br><br>
+Le canal #marketing passe en mode urgence : il faut répondre vite et rester clair.`;
+
+document.getElementById("choices").innerHTML =
+`<button onclick="strategie()">Publier une réponse officielle et cadrer le message</button>
+
+<button onclick="viral()">Laisser la viralité faire le tri toute seule</button>`
 
 }
 
