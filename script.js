@@ -45,14 +45,14 @@ setProgress(75)
 document.body.classList.add("crisis-mode")
 
 document.getElementById("story").innerHTML =
-`🚨 Alerte crise RP : un post est mal interprété et les commentaires s'embrasent.
+`🚨 Alerte crise RP : un post est <strong>mal interprété</strong> et les commentaires <strong>s'embrasent</strong>.
 <br><br>
-Le canal #marketing passe en mode urgence : il faut répondre vite et rester clair.`;
+Le canal #marketing passe en mode urgence : il faut <strong>répondre vite et rester clair</strong>.`;
 
 document.getElementById("choices").innerHTML =
 `<button onclick="strategie()">Publier une réponse officielle et cadrer le message</button>
 
-<button onclick="viral()">Laisser la viralité faire le tri toute seule</button>`
+<button onclick="oups()">Laisser la viralité faire le tri toute seule</button>`
 
 }
 
@@ -97,12 +97,26 @@ showEnd()
 
 }
 
+function oups(){
+
+setProgress(100)
+
+document.getElementById("story").innerHTML =
+`Le client se fait blacklister, vous pouvez faire mieux !
+<br><br>
+😡​ Une com' de crise soignée, c'est une entreprise en bonne santé.`;
+
+showEnd()
+
+}
+
+
 function viral(){
 
 setProgress(100)
 
 document.getElementById("story").innerHTML =
-`La marque devient célèbre… mais personne ne comprend ce qu'elle vend.
+`La structure du client devient célèbre… mais personne ne comprend ce qu'il vend.
 <br><br>
 😬 La viralité sans stratégie peut être dangereuse.`;
 
