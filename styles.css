@@ -343,3 +343,12 @@ box-shadow:
 100%{transform:translate(0,0);}
 }
 
+.crisis-mode::before {
+  pointer-events: none;
+  z-index: 0;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+}
