@@ -4,7 +4,7 @@
 Le joueur incarne une chargée de communication dans une entreprise EdTech et doit prendre des décisions stratégiques tout au long de sa journée.</h3>
 <br>
 
-<p>Chaque choix influence l’issue de l’histoire : réussite stratégique, viralité incontrôlée… ou stratégie un peu bancale.</p>
+<p>Chaque choix influence l’issue de l’histoire : réussite stratégique, viralité incontrôlée, stratégie un peu bancale... ou pire, une crise mal gérée.</p>
 
 <h2>🎮 Démo</h2>
 
@@ -39,6 +39,8 @@ Vous êtes responsable communication dans une entreprise EdTech.
 <li>📊 Résultat mitigé : parfois la stratégie doit aussi être fun</li>
 
 <li>😬 La viralité sans stratégie peut être dangereuse</li>
+
+<li></li>
 </ul>
 
 <h2>🛠️ Technologies utilisées</h2>
