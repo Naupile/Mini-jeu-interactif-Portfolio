@@ -45,7 +45,7 @@ setProgress(75)
 document.body.classList.add("crisis-mode")
 
 document.getElementById("story").innerHTML =
-`🚨 Alerte crise RP : un post est mal interprété et les commentaires <strong>s'embrasent.
+`🚨 Alerte crise RP : un post est mal interprété et les commentaires s'embrasent.
 <br><br>
 Le canal #marketing passe en mode urgence : il faut répondre vite et rester clair.`;
 
@@ -91,7 +91,7 @@ setProgress(100)
 document.getElementById("story").innerHTML =
 `Vous structurez la communication : contenus courts, storytelling et newsletter.
 <br><br>
-🚀 La marque devient une référence EdTech.`;
+🚀 La marque devient une <strong>référence EdTech</strong>.`;
 
 showEnd()
 
@@ -104,7 +104,7 @@ setProgress(100)
 document.getElementById("story").innerHTML =
 `😬 Mauvaise décision.
   <br> <br>
-Ignorer une crise, c’est laisser la réputation brûler.`;
+Ignorer une crise, c’est <strong>laisser la réputation brûler</strong>.`;
 
 showEnd()
 
@@ -118,7 +118,7 @@ setProgress(100)
 document.getElementById("story").innerHTML =
 `La structure du client devient célèbre… mais personne ne comprend ce qu'il vend.
 <br><br>
-😬 La viralité sans stratégie peut être dangereuse.`;
+😬 La viralité <strong>sans stratégie</strong> peut être dangereuse.`;
 
 showEnd()
 
