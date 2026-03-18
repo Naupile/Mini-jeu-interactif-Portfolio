@@ -40,7 +40,7 @@ Vous êtes responsable communication dans une entreprise EdTech.
 
 <li>😬 La viralité sans stratégie peut être dangereuse</li>
 
-<li></li>
+<li>🔥​ Ignorer une crise, c’est laisser la réputation brûler</li>
 </ul>
 
 <h2>🛠️ Technologies utilisées</h2>
