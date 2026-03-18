@@ -102,10 +102,10 @@ function oups(){
 
 setProgress(100)
 
-  keepCrisisOnEnd = true
+  keepCrisisOnEnd = true;
 
 document.getElementById("story").innerHTML =
-`😬 Mauvaise décision.
+`🔥​ Mauvaise décision.
   <br> <br>
 Ignorer une crise, c’est <strong>laisser la réputation brûler</strong>.`;
 
@@ -162,9 +162,6 @@ GitHub
 </div>`
 
 }
-
-if function oups = true {
-  
 
 function restart(){
 
