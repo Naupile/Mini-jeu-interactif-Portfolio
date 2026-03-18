@@ -52,7 +52,7 @@ Vous êtes responsable communication dans une entreprise EdTech.
 
  <li>JavaScript (logique du jeu et progression)</li></ul>
 
-Le design s’inspire d'une interface Slack ouverte dans une fenêtre d’ordinateur, pour rester cohérent avec un environnement de travail en communication digitale.
+Le design s’inspire d'une interface Slack ouverte dans une fenêtre d’ordinateur (avec un design spécial en cas de crise), pour rester cohérent avec un environnement de travail en communication digitale.
 
 <h2>🎨 Direction artistique</h2>
 
