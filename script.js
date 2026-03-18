@@ -2,6 +2,7 @@ document.addEventListener("click", () => {
   const audio = document.getElementById("backgroundNoise");
   audio.play();
 }, { once: true });
+let keepCrisisOnEnd = false;
 
 function setProgress(value){
 
@@ -101,6 +102,8 @@ function oups(){
 
 setProgress(100)
 
+  keepCrisisOnEnd = true
+
 document.getElementById("story").innerHTML =
 `😬 Mauvaise décision.
   <br> <br>
@@ -126,7 +129,9 @@ showEnd()
 
 function showEnd(){
 
+  if (!keepCrisisOnEnd) {
 document.body.classList.remove("crisis-mode")
+}
 
 document.getElementById("choices").innerHTML =
 
@@ -157,6 +162,9 @@ GitHub
 </div>`
 
 }
+
+if function oups = true {
+  
 
 function restart(){
 
