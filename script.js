@@ -35,7 +35,7 @@ document.getElementById("choices").innerHTML =
 
 <button onclick="viral()">Continuer la viralité</button>
 
-<button onclick="crise()">⚠️ Déclencher le module crise RP</button>`
+<button onclick="crise()">⚠️ Déclencher le mode crise RP</button>`
 
 }
 
