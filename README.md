@@ -1,8 +1,8 @@
 <h1>🎮 Une journée dans la vie d'une communicante</h1>
 
-<h3>Mini jeu narratif interactif développé en HTML, CSS et JavaScript.
-Le joueur incarne une chargée de communication dans une entreprise EdTech et doit prendre des décisions stratégiques tout au long de sa journée.</h3>
-<br>
+> *Mini jeu narratif interactif développé en HTML, CSS et JavaScript.
+Le joueur incarne une chargée de communication dans une entreprise EdTech et doit prendre des décisions stratégiques tout au long de sa journée.*
+---
 
 <p>Chaque choix influence l’issue de l’histoire : réussite stratégique, viralité incontrôlée, stratégie un peu bancale... ou pire, une crise mal gérée.</p>
 
