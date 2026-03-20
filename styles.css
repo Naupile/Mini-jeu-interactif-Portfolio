@@ -317,6 +317,37 @@ font-weight:700;
 font-variant-numeric:tabular-nums;
 }
 
+.end-stats{
+margin:24px 0;
+padding:18px;
+background:#f3efff;
+border:2px solid #d8c8ff;
+border-radius:14px;
+text-align:left;
+}
+
+.profile-title{
+margin-bottom:8px;
+}
+
+.skills-list{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin-top:14px;
+}
+
+.skill-pill{
+display:inline-flex;
+align-items:center;
+padding:8px 12px;
+border-radius:999px;
+background:#e9ddff;
+color:#4c1d95;
+font-size:14px;
+font-weight:600;
+}
+
 .github-link{
 margin-top:20px;
 font-size:14px;
@@ -385,6 +416,16 @@ box-shadow:
 10px 10px 0 #7f1d1d;
 }
 
+body.crisis-mode .end-stats{
+background:#fff1f2;
+border-color:#fecdd3;
+}
+
+body.crisis-mode .skill-pill{
+background:#fecdd3;
+color:#881337;
+}
+
 @keyframes shake{
 0%{transform:translate(0,0);}
 25%{transform:translate(1px,-1px);}
@@ -413,4 +454,3 @@ h1{
 font-size:42px;
 }
 }
-
