@@ -167,7 +167,7 @@ function getProfileContent(){
 if (endingType === "creative") {
 return {
 name: "Profil créatif",
-description: "Vous savez créer des formats engageants qui servent vraiment le message.",
+description: "Tu sais créer des formats engageants qui servent vraiment le message.",
 skills: ["Créativité", "Formats sociaux", "Storytelling"],
 modifierClass: ""
 }
@@ -176,7 +176,7 @@ modifierClass: ""
 if (endingType === "crisis") {
 return {
 name: "Profil gestion de crise",
-description: "Vous cadrez le message au bon moment et gardez la communication sous contrôle.",
+description: "Tu cadres le message au bon moment et tu gardes la communication sous contrôle.",
 skills: ["Gestion de crise", "Réactivité", "Structuration du contenu"],
 modifierClass: "end-stats-crisis"
 }
@@ -185,7 +185,7 @@ modifierClass: "end-stats-crisis"
 if (endingType === "strategic") {
 return {
 name: "Profil stratégique",
-description: "Vous privilégiez les choix structurés pour construire une communication solide.",
+description: "Tu privilégies les choix structurés pour construire une communication solide.",
 skills: ["Analyse de cible", "Stratégie de contenu", "Vision éditoriale"],
 modifierClass: ""
 }
@@ -193,7 +193,7 @@ modifierClass: ""
 
 return {
 name: "Communicante en devenir",
-description: "Vous explorez encore les bons réflexes pour concilier impact, clarté et image de marque.",
+description: "Tu explores encore les bons réflexes pour concilier impact, clarté et image de marque.",
 skills: ["Curiosité", "Progression", "Potentiel"],
 modifierClass: "end-stats-learning"
 }
@@ -213,16 +213,16 @@ document.getElementById("choices").innerHTML =
 
 `<div class="profile">
 
-<img src="jeuinteractifmoi.png" alt="Photo de Pauline" class="profile-pic">
-
-<p>Merci d'avoir joué !<br>
-Moi c'est Pauline, votre future communicante fan de violet ;).</p>
-
 <div class="end-stats ${profile.modifierClass}">
 <p class="profile-title"><strong>${profile.name}</strong></p>
 <p>${profile.description}</p>
 <div class="skills-list">${skillsMarkup}</div>
 </div>
+
+<img src="jeuinteractifmoi.png" alt="Photo de Pauline" class="profile-pic">
+
+<p>Merci d'avoir joué !<br>
+Moi c'est Pauline, votre future communicante fan de violet ;).</p>
 
 <a class="linkedin" href="https://www.linkedin.com/in/paulineaugereau/" target="_blank">
 Me contacter sur LinkedIn
