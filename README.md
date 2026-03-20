@@ -43,6 +43,13 @@ Vous êtes responsable communication dans une entreprise EdTech.
 <li>🔥​ Ignorer une crise, c’est laisser la réputation brûler</li>
 </ul>
 
+<h3>Vous découvrirez aussi votre profil selon vos statistiques de jeu :</h3>
+<ul>
+  <li>💭​ Profil stratégique</li>
+  <li>​🎨 Profil créatif</li>
+  <li>🚨​ Profil gestion de crise</li>
+</ul>
+
 <h2>🛠️ Technologies utilisées</h2>
 
 <ul>
@@ -81,6 +88,7 @@ Les boutons utilisent un style pixel / jeu rétro pour renforcer l’aspect ludi
 <li>interface simulant une fenêtre Slack</li>
 
 <li>ambiance sonore d’open space</li></ul>
+<li>système de game stats ("strat", "buzz" et "crise")</li>
 
 <h2>👩‍💻 À propos</h2>
 
