@@ -166,9 +166,8 @@ box-shadow:none;
 
 }
 
-.profile{
-
-margin-top:12px;
+  .profile{
+  margin-top:8px;
 
 }
 
@@ -318,12 +317,12 @@ font-variant-numeric:tabular-nums;
 }
 
 .end-stats{
-margin:24px 0;
-padding:18px;
-background:#f3efff;
-border:2px solid #d8c8ff;
-border-radius:14px;
-text-align:left;
+  margin:12px 0 16px 0;
+  padding:18px;
+  background:#f3efff;
+  border:2px solid #d8c8ff;
+  border-radius:14px;
+  text-align:left;
 }
 
 .end-stats-learning{
