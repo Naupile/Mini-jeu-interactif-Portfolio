@@ -181,6 +181,10 @@ margin-bottom:15px;
 
 }
 
+.profile button + button{
+  margin-top:6px;
+}
+
 .linkedin{
 
 display:inline-block;
