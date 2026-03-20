@@ -47,7 +47,8 @@ Vous êtes responsable communication dans une entreprise EdTech.
 <ul>
   <li>💭​ Profil stratégique</li>
   <li>​🎨 Profil créatif</li>
-  <li>🚨​ Profil gestion de crise</li>
+  <li>💥​ Profil gestion de crise</li>
+  <li>💫​ Communicante en devenir</li>
 </ul>
 
 <h2>🛠️ Technologies utilisées</h2>
