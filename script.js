@@ -4,6 +4,7 @@ document.addEventListener("click", () => {
 }, { once: true });
 
 let keepCrisisOnEnd = false;
+let endingType = "";
 
 const stats = {
   strategy: 0,
@@ -25,7 +26,7 @@ function updateStatsDisplay(){
 
 function applyStatChanges(changes){
   Object.entries(changes).forEach(([key, value]) => {
-    stats[key] += value;
+    stats[key] = Math.max(0, stats[key] + value);
   });
 
   updateStatsDisplay();
@@ -83,6 +84,7 @@ document.getElementById("choices").innerHTML =
 
 function reels(){
 
+endingType = "creative"
 applyStatChanges({ strategy: 1, buzz: 2, crisis: -1 })
 setProgress(100)
 
@@ -98,6 +100,7 @@ showEnd()
 
 function podcast(){
 
+endingType = "learning"
 applyStatChanges({ strategy: 2, buzz: -1, crisis: 0 })
 setProgress(100)
 
@@ -113,6 +116,7 @@ showEnd()
 
 function strategie(){
 
+endingType = document.body.classList.contains("crisis-mode") ? "crisis" : "strategic"
 applyStatChanges({ strategy: 3, buzz: 0, crisis: -2 })
 setProgress(100)
 
@@ -127,6 +131,7 @@ showEnd()
 
 function oups(){
 
+endingType = "learning"
 applyStatChanges({ strategy: -1, buzz: 1, crisis: 2 })
 setProgress(100)
 
@@ -144,6 +149,7 @@ showEnd()
 
 function viral(){
 
+endingType = "learning"
 applyStatChanges({ strategy: -1, buzz: 3, crisis: 1 })
 setProgress(100)
 
@@ -158,26 +164,38 @@ showEnd()
 
 function getProfileContent(){
 
-if (stats.crisis >= stats.strategy && stats.crisis >= stats.buzz) {
+if (endingType === "creative") {
+return {
+name: "Profil créatif",
+description: "Tu sais créer des formats engageants qui servent vraiment le message.",
+skills: ["Créativité", "Formats sociaux", "Storytelling"],
+modifierClass: ""
+}
+}
+
+if (endingType === "crisis") {
 return {
 name: "Profil gestion de crise",
-description: "Tu sais garder un cap clair quand la pression monte.",
-skills: ["Gestion de crise", "Réactivité", "Cadrage du message"]
+description: "Tu cadres le message au bon moment et tu gardes la communication sous contrôle.",
+skills: ["Gestion de crise", "Réactivité", "Structuration du contenu"],
+modifierClass: "end-stats-crisis"
 }
 }
 
-if (stats.buzz > stats.strategy) {
-return {
-name: "Profil créatif & acquisition",
-description: "Tu sais capter l'attention et créer de l'impact rapidement.",
-skills: ["Créativité", "Culture social media", "Storytelling"]
-}
-}
-
+if (endingType === "strategic") {
 return {
 name: "Profil stratégique",
 description: "Tu privilégies les choix structurés pour construire une communication solide.",
-skills: ["Analyse de cible", "Stratégie de contenu", "Vision éditoriale"]
+skills: ["Analyse de cible", "Stratégie de contenu", "Vision éditoriale"],
+modifierClass: ""
+}
+}
+
+return {
+name: "Communicante en devenir",
+description: "Tu explores encore les bons réflexes pour concilier impact, clarté et image de marque.",
+skills: ["Curiosité", "Progression", "Potentiel"],
+modifierClass: "end-stats-learning"
 }
 
 }
@@ -200,7 +218,7 @@ document.getElementById("choices").innerHTML =
 <p>Merci d'avoir joué !<br>
 Moi c'est Pauline, votre future communicante fan de violet ;).</p>
 
-<div class="end-stats">
+<div class="end-stats ${profile.modifierClass}">
 <p class="profile-title"><strong>${profile.name}</strong></p>
 <p>${profile.description}</p>
 <div class="skills-list">${skillsMarkup}</div>
