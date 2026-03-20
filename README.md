@@ -92,3 +92,7 @@ par la narration et l'expérience utilisateur.
 <h3><a href="https://www.linkedin.com/in/paulineaugereau/">LinkedIn</h3>
 
 <h4>Merci d'avoir joué !</h4>
+
+<h2>🚀 Pistes d'amélioration</h2>
+
+<p>Retrouvez des propositions détaillées dans <code>AMELIORATIONS_PROJET.md</code>.</p>
