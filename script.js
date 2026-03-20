@@ -156,11 +156,40 @@ showEnd()
 
 }
 
+function getProfileContent(){
+
+if (stats.crisis >= stats.strategy && stats.crisis >= stats.buzz) {
+return {
+name: "Profil gestion de crise",
+description: "Tu sais garder un cap clair quand la pression monte.",
+skills: ["Gestion de crise", "Réactivité", "Cadrage du message"]
+}
+}
+
+if (stats.buzz > stats.strategy) {
+return {
+name: "Profil créatif & acquisition",
+description: "Tu sais capter l'attention et créer de l'impact rapidement.",
+skills: ["Créativité", "Culture social media", "Storytelling"]
+}
+}
+
+return {
+name: "Profil stratégique",
+description: "Tu privilégies les choix structurés pour construire une communication solide.",
+skills: ["Analyse de cible", "Stratégie de contenu", "Vision éditoriale"]
+}
+
+}
+
 function showEnd(){
 
   if (!keepCrisisOnEnd) {
 document.body.classList.remove("crisis-mode")
 }
+
+const profile = getProfileContent()
+const skillsMarkup = profile.skills.map((skill) => `<span class="skill-pill">${skill}</span>`).join("")
 
 document.getElementById("choices").innerHTML =
 
@@ -170,6 +199,12 @@ document.getElementById("choices").innerHTML =
 
 <p>Merci d'avoir joué !<br>
 Moi c'est Pauline, votre future communicante fan de violet ;).</p>
+
+<div class="end-stats">
+<p class="profile-title"><strong>${profile.name}</strong></p>
+<p>${profile.description}</p>
+<div class="skills-list">${skillsMarkup}</div>
+</div>
 
 <a class="linkedin" href="https://www.linkedin.com/in/paulineaugereau/" target="_blank">
 Me contacter sur LinkedIn
@@ -197,4 +232,3 @@ location.reload()
 }
 
 updateStatsDisplay()
-
