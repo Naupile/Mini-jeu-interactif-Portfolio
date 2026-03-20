@@ -385,11 +385,6 @@ box-shadow:
 10px 10px 0 #7f1d1d;
 }
 
-body.crisis-mode .end-stats{
-background:#fff1f2;
-border-color:#fecdd3;
-}
-
 @keyframes shake{
 0%{transform:translate(0,0);}
 25%{transform:translate(1px,-1px);}
