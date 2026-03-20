@@ -326,6 +326,20 @@ border-radius:14px;
 text-align:left;
 }
 
+.end-stats-learning{
+background:#f5f3ff;
+border-color:#ddd6fe;
+}
+
+.end-stats-crisis{
+background:#fff1f2;
+border-color:#fecdd3;
+}
+
+.end-stats-crisis .profile-title{
+color:#b91c1c;
+}
+
 .profile-title{
 margin-bottom:8px;
 }
