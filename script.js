@@ -200,6 +200,7 @@ function showAbout(){
 }
 
 function showAbout(){
+  document.querySelector(".story-box").style.display = "none";
   document.getElementById("choices").innerHTML =
     `<div class="profile">
       <img src="jeuinteractifmoi.png" alt="Photo de Pauline" class="profile-pic">
