@@ -121,7 +121,7 @@ function oups(){
   document.getElementById("story").innerHTML =
     `🔥 Mauvaise décision.
     <br><br>
-    Ignorer une crise, c’est <strong>laisser la réputation brûler</strong>.`;
+    Ignorer une crise, c'est <strong>laisser la réputation brûler</strong>.`;
 
   showEnd();
 }
@@ -180,7 +180,7 @@ function showEnd(){
     document.body.classList.remove("crisis-mode");
   }
 
-   document.getElementById("choices").innerHTML =
+  document.getElementById("choices").innerHTML =
     `<div class="result-buttons">
       <button onclick="showAbout()">À propos de moi</button>
       <button onclick="restart()">Rejouer</button>
@@ -188,21 +188,22 @@ function showEnd(){
 }
 
 function showAbout(){
+  document.querySelector(".story-box").style.display = "none";
+  document.querySelector(".progress-bar").style.display = "none";
 
   const profile = getProfileContent();
   const skillsMarkup = profile.skills
     .map((skill) => `<span class="skill-pill">${skill}</span>`)
     .join("");
 
-      <button onclick="showAbout()">Me connaître</button>
-      <button onclick="restart()">Rejouer</button>
-    </div>`;
-}
-
-function showAbout(){
-  document.querySelector(".story-box").style.display = "none";
   document.getElementById("choices").innerHTML =
     `<div class="profile">
+      <div class="end-stats ${profile.modifierClass}">
+        <p class="profile-title"><strong>${profile.name}</strong></p>
+        <p>${profile.description}</p>
+        <div class="skills-list">${skillsMarkup}</div>
+      </div>
+
       <img src="jeuinteractifmoi.png" alt="Photo de Pauline" class="profile-pic">
 
       <p>Merci d'avoir joué !<br>
