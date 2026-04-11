@@ -180,18 +180,19 @@ function showEnd(){
     document.body.classList.remove("crisis-mode");
   }
 
+   document.getElementById("choices").innerHTML =
+    `<div class="result-buttons">
+      <button onclick="showAbout()">À propos de moi</button>
+      <button onclick="restart()">Rejouer</button>
+    </div>`;
+}
+
+function showAbout(){
+
   const profile = getProfileContent();
   const skillsMarkup = profile.skills
     .map((skill) => `<span class="skill-pill">${skill}</span>`)
     .join("");
-
-  document.getElementById("choices").innerHTML =
-    `<div class="profile">
-      <div class="end-stats ${profile.modifierClass}">
-        <p class="profile-title"><strong>${profile.name}</strong></p>
-        <p>${profile.description}</p>
-        <div class="skills-list">${skillsMarkup}</div>
-      </div>
 
       <button onclick="showAbout()">Me connaître</button>
       <button onclick="restart()">Rejouer</button>
